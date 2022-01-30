@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int rpm = 300, degreesPerSecond;
+    // rev = revolution ; rpm = revolution per minute ; rps = revolution per second;
+    // 1 rev = 360° ; rpm / 60 = rps ; rps * °/rev = degrees Per Second
+    degreesPerSecond = (rpm / 60) * 360;
+    printf("%d rpm is equal tp %d degrees per second", rpm, degreesPerSecond);
+    return 0;
+}
